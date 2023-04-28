@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "reviewersFromCodeOwners": "true",
   "regexManagers": [
     {
       "description": "Upgrade conda dependencies",
