@@ -11,7 +11,7 @@
         "(^|/)environment.yml$"
       ],
       "matchStrings": [
-        "# renovate datasource=conda\\sdepName=(?<depName>.*?)\\s+- [a-z0-9]+==\"?(?<currentValue>.*)\"?"
+        "# renovate datasource=conda\\sdepName=(?<depName>.*?)\\s+- [a-z0-9]+=\"?(?<currentValue>.*)\"?"
       ],
       "datasourceTemplate": "conda"
     }
