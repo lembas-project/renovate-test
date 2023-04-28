@@ -4,6 +4,7 @@ dependencies:
 - pip
 # renovate datasource=conda depName=main/sqlalchemy
 - sqlalchemy=1.4
+# renovate datasource=conda depName=main/alembic
 - alembic=1.7
 - click=8.0
 - pyyaml=6.0
