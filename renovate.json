@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "matchManagers": ["regexManager"],
+      "matchManagers": ["regex"],
       "commitMessageTopic": "{{datasource}} dependency {{depName}}"
     }
   ],
