@@ -21,7 +21,7 @@
     },
     {
       "description": "Upgrade pypi dependencies inside conda environment files",
-      "fileMatch": ["(^|/)environment.yml$"],
+      "fileMatch": ["(^|/)environment(.*).ya?ml$"],
       "matchStrings": ["# renovate datasource=pypi\\s+-\\s*(?<depName>[\\w-]+)\\s*(\\[[\\w,]+\\])?\\s*==?(?<currentValue>.*)"],
       "datasourceTemplate": "pypi"
     }
