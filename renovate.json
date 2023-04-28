@@ -3,6 +3,12 @@
   "extends": [
     "config:base"
   ],
+  "packageRules": [
+    {
+      "matchManagers": ["regexManager"],
+      "commitMessageTopic": "{{datasource}} dependency {{depName}}"
+    }
+  ],
   "reviewersFromCodeOwners": "true",
   "regexManagers": [
     {
