@@ -13,7 +13,7 @@
   "regexManagers": [
     {
       "description": "Upgrade conda dependencies",
-      "fileMatch": ["(^|/)environment.yml$"],
+      "fileMatch": ["(^|/)environment(.*).ya?ml$"],
       "matchStrings": [
         "#\\s*renovate\\s+datasource=conda\\s+depName=(?<depName>.*?)\\s+-\\s*\\w+\\s*==?\\s*\"?(?<currentValue>.*)\"?"
       ],
