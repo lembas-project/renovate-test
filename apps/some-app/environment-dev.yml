@@ -15,7 +15,7 @@ dependencies:
   - fastapi<=0.75
   - pydantic[email,dotenv]<=1.10
   # renovate datasource=pypi
-  - uvicorn==0.17.6
+  - uvicorn==0.22.0
   # DataDog
   - ddtrace==0.49.3
   - protobuf==3.20.1
