@@ -14,7 +14,7 @@ dependencies:
   # FastAPI
   - fastapi<=0.75
   # renovate datasource=pypi
-  - pydantic[email,dotenv]==1.10.2
+  - pydantic[email,dotenv]==1.10.11
   # renovate datasource=pypi
   - uvicorn==0.17.6
   # DataDog
